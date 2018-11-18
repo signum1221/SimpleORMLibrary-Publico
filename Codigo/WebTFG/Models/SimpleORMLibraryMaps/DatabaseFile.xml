@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Databases>
+  <Database>
+    <Name>MYSQL test database Web</Name>
+    <Server>127.0.0.1</Server>
+    <DatabaseName>pruebawebtfg</DatabaseName>
+    <UID>DataBaseTestApplicationUser</UID>
+    <Password>Test</Password>
+    <Type>MySQL</Type>
+    <Port>3306</Port>
+    <SSLMode>none</SSLMode>
+  </Database>
+  <Database>
+    <Name>MongoDB test database Web</Name>
+    <Server>127.0.0.1</Server>
+    <DatabaseName>TiendaWebTFG</DatabaseName>
+    <UserName>DataBaseTestApplicationUser</UserName>
+    <Password>Test</Password>
+    <Type>MongoDB</Type>
+    <Port>27017</Port>
+    <SSLMode>false</SSLMode>
+  </Database>
+</Databases>

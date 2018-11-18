@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Models>
+  <Model>
+    <Name>Carro</Name>
+    <AllFieldsOnTheSameDatabase>True</AllFieldsOnTheSameDatabase>
+    <PrimaryDatabase>MYSQL test database Web</PrimaryDatabase>
+    <PrimaryKeys>
+      <PrimaryKey>
+        <Name>IdCarro</Name>
+        <DatabaseFieldName>IdCarro</DatabaseFieldName>
+      </PrimaryKey>
+    </PrimaryKeys>
+    <Relations>
+      <Relation>
+        <Name>Lineas</Name>
+        <ModelName>LineaCarro</ModelName>
+        <OneToMany>true</OneToMany>
+        <ForeignKeys>
+          <ForeignKey>
+            <Name>Carro</Name>
+            <NameAsPk>IdCarro</NameAsPk>
+          </ForeignKey>
+        </ForeignKeys>
+      </Relation>
+    </Relations>
+  </Model>
+</Models>

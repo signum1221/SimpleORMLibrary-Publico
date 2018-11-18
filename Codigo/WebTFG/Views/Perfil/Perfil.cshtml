@@ -1,0 +1,103 @@
+﻿@using SimpleORMLibrary.Sessions;
+@model WebTFG.Models.Usuario
+
+@{
+    ViewData["Title"] = "Perfil";
+}
+
+<h2>Perfil de @Model.Username</h2>
+<table class="table table-bordered">
+    <tr>
+        <td>Email : </td>
+        <td>@Model.Email</td>
+    </tr>
+    <tr>
+        <td>Nombre : </td>
+        <td>@Model.Nombre @Model.Apellidos</td>
+    </tr>
+    <tr>
+        <td>Fecha de Registro : </td>
+        <td>@Model.FechaRegistro</td>
+    </tr>
+    <tr>
+        <td>Saldo : </td>
+        <td>@Model.Saldo €</td>
+    </tr>
+    <tr>
+        <td colspan="2"><a asp-area="" asp-controller="Carro" asp-action="Carro">Carro</a></td>
+    </tr>
+    @if (Model.Admin)
+    {
+        <tr>
+            <td>Administrador : </td>
+            <td>@Model.Admin</td>
+        </tr>
+    }
+</table>
+
+<h2>Facturas</h2>
+@{
+    Session s = new Session();
+
+    s.getProperty(Model, nameof(Model.Facturas));
+        
+}
+<table class="table table-bordered">
+    <tr>
+        <th>Identificador</th>
+        <th>Fecha</th>
+        <th>Productos</th>
+        <th>Precio</th>
+        <th>Parte proporcional al IVA</th>
+    </tr>
+    @{
+        foreach (Factura f in Model.Facturas)
+        {
+            double precioFacturaActual = 0;
+            <tr>
+                @{s.getProperty(f, nameof(f.Lineas));}
+                <td>@f.IdFactura</td>
+                <td>@f.Fecha</td>
+                <td>
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Cantidad</th>
+                            <th>Precio por unidad</th>
+                            <th>Precio Total</th>
+                            <th>Parte proporcional al IVA</th>
+                            <th>Archivo</th>
+                        </tr>
+                        @foreach (LineaFactura lf in f.Lineas)
+                        {
+                            precioFacturaActual += lf.Precio * lf.Cantidad;
+                            s.getProperty(lf, nameof(lf.Prod));
+                            <tr>
+                                <td>
+                                    @lf.NombreProducto
+                                </td>
+                                <td>
+                                    @lf.Cantidad
+                                </td>
+                                <td>
+                                    @lf.Precio
+                                </td>
+                                <td>
+                                    @(lf.Precio*lf.Cantidad)
+                                </td>
+                                <td>
+                                    @(Math.Round(lf.Precio * lf.Cantidad * 0.21, 2, MidpointRounding.AwayFromZero))
+                                </td>
+                                <td>
+                                    <a href="~/Archivos/@lf.Prod.Archivo">Descargar</a>
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                </td>
+                <td>@precioFacturaActual</td>
+                <td>@(Math.Round(precioFacturaActual * 0.21, 2, MidpointRounding.AwayFromZero))</td>
+            </tr>
+        }
+    }
+</table>

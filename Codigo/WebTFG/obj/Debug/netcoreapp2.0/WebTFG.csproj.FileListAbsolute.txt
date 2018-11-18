@@ -1,0 +1,25 @@
+C:\Users\Signum\source\repos\WebTfg\WebTFG\bin\Debug\netcoreapp2.0\WebTFG.deps.json
+C:\Users\Signum\source\repos\WebTfg\WebTFG\bin\Debug\netcoreapp2.0\WebTFG.runtimeconfig.json
+C:\Users\Signum\source\repos\WebTfg\WebTFG\bin\Debug\netcoreapp2.0\WebTFG.runtimeconfig.dev.json
+C:\Users\Signum\source\repos\WebTfg\WebTFG\bin\Debug\netcoreapp2.0\WebTFG.dll
+C:\Users\Signum\source\repos\WebTfg\WebTFG\bin\Debug\netcoreapp2.0\WebTFG.pdb
+C:\Users\Signum\source\repos\WebTfg\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.csproj.CoreCompileInputs.cache
+C:\Users\Signum\source\repos\WebTfg\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.AssemblyInfoInputs.cache
+C:\Users\Signum\source\repos\WebTfg\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.AssemblyInfo.cs
+C:\Users\Signum\source\repos\WebTfg\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.dll
+C:\Users\Signum\source\repos\WebTfg\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.pdb
+C:\Users\Signum\source\repos\WebTfg\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.csprojAssemblyReference.cache
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\bin\Debug\netcoreapp2.0\WebTFG.deps.json
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\bin\Debug\netcoreapp2.0\WebTFG.runtimeconfig.json
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\bin\Debug\netcoreapp2.0\WebTFG.runtimeconfig.dev.json
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\bin\Debug\netcoreapp2.0\WebTFG.dll
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\bin\Debug\netcoreapp2.0\WebTFG.pdb
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.csprojAssemblyReference.cache
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.csproj.CoreCompileInputs.cache
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.AssemblyInfoInputs.cache
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.AssemblyInfo.cs
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.dll
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.pdb
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\bin\Debug\netcoreapp2.0\SimpleORMLibrary.dll
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\bin\Debug\netcoreapp2.0\SimpleORMLibrary.pdb
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\WebTFG\obj\Debug\netcoreapp2.0\WebTFG.csproj.CopyComplete

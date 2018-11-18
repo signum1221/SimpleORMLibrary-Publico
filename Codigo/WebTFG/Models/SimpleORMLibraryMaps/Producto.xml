@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Models>
+  <Model>
+    <Name>Producto</Name>
+    <AllFieldsOnTheSameDatabase>True</AllFieldsOnTheSameDatabase>
+    <PrimaryDatabase>MongoDB test database Web</PrimaryDatabase>
+    <PrimaryKeys>
+      <PrimaryKey>
+        <Name>IdProducto</Name>
+        <DatabaseFieldName>IdProducto</DatabaseFieldName>
+      </PrimaryKey>
+    </PrimaryKeys>
+    <Fields>
+      <Field>
+        <Name>Nombre</Name>
+        <DatabaseFieldName>Nombre</DatabaseFieldName>
+      </Field>
+      <Field>
+        <Name>Precio</Name>
+        <DatabaseFieldName>Precio</DatabaseFieldName>
+      </Field>
+      <Field>
+        <Name>Descripcion</Name>
+        <DatabaseFieldName>Descripcion</DatabaseFieldName>
+      </Field>
+      <Field>
+        <Name>ImagenPrincipal</Name>
+        <DatabaseFieldName>ImagenPrincipal</DatabaseFieldName>
+      </Field>
+      <Field>
+        <Name>Imagenes</Name>
+        <DatabaseFieldName>Imagenes</DatabaseFieldName>
+      </Field>
+      <Field>
+        <Name>Archivo</Name>
+        <DatabaseFieldName>Archivo</DatabaseFieldName>
+      </Field>
+    </Fields>
+  </Model>
+</Models>

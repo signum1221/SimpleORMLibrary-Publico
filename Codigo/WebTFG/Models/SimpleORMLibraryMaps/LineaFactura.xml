@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Models>
+  <Model>
+    <Name>LineaFactura</Name>
+    <AllFieldsOnTheSameDatabase>True</AllFieldsOnTheSameDatabase>
+    <PrimaryDatabase>MYSQL test database Web</PrimaryDatabase>
+    <PrimaryKeys>
+      <PrimaryKey>
+        <Name>IdLinea</Name>
+        <DatabaseFieldName>IdLinea</DatabaseFieldName>
+      </PrimaryKey>
+    </PrimaryKeys>
+    <Fields>
+      <Field>
+        <Name>Cantidad</Name>
+        <DatabaseFieldName>Cantidad</DatabaseFieldName>
+      </Field>
+      <Field>
+        <Name>Precio</Name>
+        <DatabaseFieldName>Precio</DatabaseFieldName>
+      </Field>
+      <Field>
+        <Name>NombreProducto</Name>
+        <DatabaseFieldName>NombreProducto</DatabaseFieldName>
+      </Field>
+    </Fields>
+    <Relations>
+      <Relation>
+        <Name>Prod</Name>
+        <ModelName>Producto</ModelName>
+        <OneToMany>False</OneToMany>
+        <ForeignKeys>
+          <ForeignKey>
+            <Name>Producto</Name>
+            <NameAsPk>IdProducto</NameAsPk>
+          </ForeignKey>
+        </ForeignKeys>
+      </Relation>
+    </Relations>
+  </Model>
+</Models>

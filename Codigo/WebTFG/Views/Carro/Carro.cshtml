@@ -1,0 +1,43 @@
+﻿@using SimpleORMLibrary.Sessions;
+@model WebTFG.Models.Usuario
+
+@{
+    ViewData["Title"] = "Carro";
+}
+
+<h2>Carro</h2>
+
+<table class="table">
+    <tr>
+        <th>Nombre</th>
+        <th>Cantidad</th>
+        <th>Precio Total</th>
+    </tr>
+    @{
+        Session s = new Session();
+        s.getProperty(Model, nameof(Model.CarroCompra));
+        s.getProperty(Model.CarroCompra, nameof(Model.CarroCompra.Lineas));
+
+        @foreach (var linea in Model.CarroCompra.Lineas)
+        {
+            s.getProperty(linea, nameof(linea.Prod));
+            var precioTotal = linea.Cantidad * linea.Prod.Precio;
+            <tr>
+                <td>
+                    <a href="@Url.Action("Producto", "Producto",  new { id = linea.Prod.IdProducto })"> @linea.Prod.Nombre </a>
+                </td>
+                <td>
+                    @linea.Cantidad
+                    <a href="@Url.Action("Decrease", "Carro" , new { id=linea.IdLinea, cantidad=linea.Cantidad })"> <span class="glyphicon glyphicon-minus"></span> </a>
+                    <a href="@Url.Action("Increase", "Carro" , new { id=linea.IdLinea, cantidad=linea.Cantidad })"> <span class="glyphicon glyphicon-plus"></span> </a>
+                    <a href="@Url.Action("Remove", "Carro",  new { id = linea.IdLinea})"> <span class="glyphicon glyphicon-trash"></span> </a>
+                </td>
+                <td>
+                    @precioTotal €
+                </td>
+            </tr>
+        }
+    }
+</table>
+
+<a  class="btn btn-primary" href="@Url.Action("Comprar", "Carro")"> Comprar </a>

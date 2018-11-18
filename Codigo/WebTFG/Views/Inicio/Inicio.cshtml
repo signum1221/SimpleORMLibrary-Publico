@@ -1,0 +1,20 @@
+﻿@using Microsoft.AspNetCore.Http
+@using Newtonsoft.Json;
+@model IEnumerable<WebTFG.Models.Producto>
+
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<h2 style="text-align: center;">Inicio</h2>
+@if (@Context.Session.GetString("user") != null)
+{
+    var user = JsonConvert.DeserializeObject<WebTFG.Models.Usuario>(Context.Session.GetString("user"));
+<p style="text-align: center;"> @user.Nombre, Bienvenido a Eshop, la tienda de productos digitales.</p>
+}
+else
+{
+    <p style="text-align: center;">Bienvenido visitante a Eshop, la tienda de productos digitales.</p>
+}
+
+@await Html.PartialAsync("ListaProductos", Model)

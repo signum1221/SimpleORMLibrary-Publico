@@ -1,0 +1,9 @@
+﻿@model IEnumerable<WebTFG.Models.Producto>
+
+@{
+    ViewData["Title"] = "Productos";
+}
+
+<h2 style="text-align: center;">Productos</h2>
+
+@await Html.PartialAsync("ListaProductos", Model)

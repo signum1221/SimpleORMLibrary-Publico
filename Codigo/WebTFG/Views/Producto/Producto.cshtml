@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNetCore.Http
+@model WebTFG.Models.Producto
+
+@{
+    ViewData["Title"] = "Producto";
+}
+<table>
+    <tr><td><h2>@Model.Nombre</h2></td></tr>
+    <tr style="border-radius: 25px;border: 2px solid #696969;padding: 20px;">
+        <td><img height="200px"  src="~/Imagenes/Productos/@Model.ImagenPrincipal" runat="server" /></td>
+        <td>
+            <div> Descripcion : <br /> <p>@Model.Descripcion</p> </div>
+            <div> Precio : @Model.Precio €</div>
+            @if (@Context.Session.GetString("user") != null)
+            {
+                <a href="@Url.Action("AnyadirAlCarro", "Producto", new { id = Model.IdProducto})" type="button" class="btn btn-primary">Añadir al carro</a>
+            }
+        </td>
+</table>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <h2>Imagenes</h2>
+    <div class="carousel-inner">
+        @{
+            foreach (String picture in Model.Imagenes)
+            {
+                <div style="float:left;border-radius: 25px;border: 2px solid #696969;padding: 20px;" class="carousel-item active">
+                    <img height="150px" class="d-block w-100" src="~/Imagenes/Productos/@picture">
+                </div>
+            }
+
+        }
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleORM", "ConsoleApp1\SimpleORM.csproj", "{0B9F95A8-7246-4FA5-8C70-70CEA3921E68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleORMLibrary", "SimpleORMLibrary\SimpleORMLibrary.csproj", "{D57F8C9E-C700-4378-89A8-EEC5CE4A2B97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebTFG", "WebTFG\WebTFG.csproj", "{A3797F97-4F33-49AB-9B5E-3C25F8872D25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B9F95A8-7246-4FA5-8C70-70CEA3921E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9F95A8-7246-4FA5-8C70-70CEA3921E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9F95A8-7246-4FA5-8C70-70CEA3921E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9F95A8-7246-4FA5-8C70-70CEA3921E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D57F8C9E-C700-4378-89A8-EEC5CE4A2B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57F8C9E-C700-4378-89A8-EEC5CE4A2B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57F8C9E-C700-4378-89A8-EEC5CE4A2B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57F8C9E-C700-4378-89A8-EEC5CE4A2B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3797F97-4F33-49AB-9B5E-3C25F8872D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3797F97-4F33-49AB-9B5E-3C25F8872D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3797F97-4F33-49AB-9B5E-3C25F8872D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3797F97-4F33-49AB-9B5E-3C25F8872D25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61934AB8-EEEF-4952-804E-829E408CF080}
+	EndGlobalSection
+EndGlobal

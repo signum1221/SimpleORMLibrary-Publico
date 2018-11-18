@@ -1,0 +1,18 @@
+C:\Users\Signum\source\repos\WebTfg\SimpleORMLibrary\bin\Debug\netstandard2.0\SimpleORMLibrary.deps.json
+C:\Users\Signum\source\repos\WebTfg\SimpleORMLibrary\bin\Debug\netstandard2.0\SimpleORMLibrary.dll
+C:\Users\Signum\source\repos\WebTfg\SimpleORMLibrary\obj\Debug\netstandard2.0\SimpleORMLibrary.csprojAssemblyReference.cache
+C:\Users\Signum\source\repos\WebTfg\SimpleORMLibrary\obj\Debug\netstandard2.0\SimpleORMLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Signum\source\repos\WebTfg\SimpleORMLibrary\obj\Debug\netstandard2.0\SimpleORMLibrary.AssemblyInfoInputs.cache
+C:\Users\Signum\source\repos\WebTfg\SimpleORMLibrary\obj\Debug\netstandard2.0\SimpleORMLibrary.AssemblyInfo.cs
+C:\Users\Signum\source\repos\WebTfg\SimpleORMLibrary\bin\Debug\netstandard2.0\SimpleORMLibrary.pdb
+C:\Users\Signum\source\repos\WebTfg\SimpleORMLibrary\obj\Debug\netstandard2.0\SimpleORMLibrary.dll
+C:\Users\Signum\source\repos\WebTfg\SimpleORMLibrary\obj\Debug\netstandard2.0\SimpleORMLibrary.pdb
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\SimpleORMLibrary\bin\Debug\netstandard2.0\SimpleORMLibrary.deps.json
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\SimpleORMLibrary\bin\Debug\netstandard2.0\SimpleORMLibrary.dll
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\SimpleORMLibrary\bin\Debug\netstandard2.0\SimpleORMLibrary.pdb
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\SimpleORMLibrary\obj\Debug\netstandard2.0\SimpleORMLibrary.csprojAssemblyReference.cache
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\SimpleORMLibrary\obj\Debug\netstandard2.0\SimpleORMLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\SimpleORMLibrary\obj\Debug\netstandard2.0\SimpleORMLibrary.AssemblyInfoInputs.cache
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\SimpleORMLibrary\obj\Debug\netstandard2.0\SimpleORMLibrary.AssemblyInfo.cs
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\SimpleORMLibrary\obj\Debug\netstandard2.0\SimpleORMLibrary.dll
+C:\Users\Signum\Desktop\Entrega TFG\Codigo\SimpleORMLibrary\obj\Debug\netstandard2.0\SimpleORMLibrary.pdb
